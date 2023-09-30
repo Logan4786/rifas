@@ -1,0 +1,233 @@
+
+/* CSS DO LOGINBAR // */
+
+
+.button-login {
+    background-color: rgb(98, 255, 93);
+    color: white;
+    border-style: none;
+    border-radius: 7px;
+    width: 40px;
+    height: 25px;
+    margin: 3px;
+  }
+
+.button-login:hover {
+    cursor: pointer;
+    opacity: .8;
+}  
+
+.button-register {
+    background-color: rgb(93, 255, 134);
+    width: 100px;
+    height: 25px;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    margin: 3px;
+}
+
+.button-register:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.form-bar {
+    display: flex;
+    flex-direction: column;
+  }
+
+.login-bar {
+    height: 300px;
+    width: 320px;
+    margin: 80px;
+    flex: 2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(219, 196, 255);
+}
+
+
+
+.input-login {
+    width: 280px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 10px;
+    border-color: rgb(255, 174, 93);
+    outline: none;
+}
+.input-login:focus {
+    border: 1px solid black;
+    width: 285px;
+    height: 35px;
+}
+.button-inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+/* ///////////////////////////////////////*/
+/* Estilo do componente Painel de Usuario */
+
+.container-painel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 410px;
+    width: 700px;
+    margin: 40px;
+    border-radius: 20px;
+    background-color:rgb(255, 227, 196);
+}
+
+.bem-vindo {
+    font-family: Arial;
+}
+
+
+.button-logout {
+    background-color: rgb(255, 174, 93);
+    outline: black;
+    border: none;
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    color:white;
+}
+
+.button-logout:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.button-menu {
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    background: none;
+    background-color: rgb(255, 174, 93);
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.button-menu:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+
+
+/* Time Line das Rifas */
+
+.container-timeline{
+    flex: 3;
+}
+
+.list-timeline {
+    background-color:rgb(255, 227, 196);
+    width: 700px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.image-timeline {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.container-isolado {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    width: 150px;
+    height: 35px;
+    background: rgb(255, 174, 93);
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .25s;
+    position: relative;
+
+}
+
+.btn img{
+    position: absolute;
+    top: 48.5%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    transition: .25s;
+}
+
+
+
+.btn span{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 30px;
+    transition: .25s;
+    clip-path: circle(200px at 55px 27.5px);
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: .8;
+    
+}
+
+.btn:hover img{
+    left: 50%;
+}
+
+.btn:hover span{
+    clip-path: circle(0px at 125px 27.5px);
+}
+
+.container-isolado2 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.btn-compartilhar {
+    width: 150px;
+    height: 35px;
+    background: rgb(255, 174, 93);
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    margin-top: 5px;
+}
+
+.btn-compartilhar:hover {
+    cursor: pointer;
+    opacity: .8;
+}
